@@ -1,2 +1,8 @@
-# python-audio-visualizer
-A beat-reactive 2D audio visualizer programmed in Python using Pygame, Librosa, and MoviePy. Designed to generate clean, high-fidelity visualizers for chilled K-R&amp;B and neo-soul tracks without heavy eye strain. Built completely open-source for developers and music creators alike. Check the README to set up your own assets!
+# Script & Soul Audio Visualizer
+
+To run this script locally:
+1. Clone the repository.
+2. Set up your virtual environment and run `pip install -r requirements.txt`.
+3. Add your own audio file to the root directory and name it `track.mp3`.
+4. Add your own 1920x1080 image to the root directory and name it `background.jpg`.
+5. Run `python visualizer.py`!
