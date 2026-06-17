@@ -49,4 +49,4 @@ These features are currently being tested and will appear in future releases.
 
 ## 🎧 Listen Along
 If you want to see this script in action or just need some music to code to, check out the channel:
-👉 **Script & Soul on YouTube [https://www.youtube.com/channel/UCUQFtZLnG72V4eqaxTpEYlw](https://www.youtube.com/watch?v=MyHwTAWVl7A]
+👉 **Script & Soul on YouTube: https://www.youtube.com/watch?v=t2vX30-Q0Zg
