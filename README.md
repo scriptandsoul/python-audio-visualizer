@@ -9,39 +9,41 @@ To run this script locally:
 
 ## Visualizer Updates
 
-### 🎨 Adaptive Color Palette
-- Uses K-Means color extraction from the background image.
-- Automatically selects a dominant accent color and generates complementary bar/glow colors.
-- Keeps the visualizer naturally matched to the artwork.
+# Visualizer Versions
 
-### 📊 Glass-Style Audio Bars
-- Increased max bar height to **420px**.
-- Semi-transparent bars (`BAR_ALPHA = 140`) with per-pixel alpha blending.
-- Added a subtle 2px highlight edge for a glass/crystal appearance.
+## Visualizer v3.0 (Current Release)
 
-### 📝 Text-Safe Layout
-- Added `TEXT_SAFE_ZONE_Y = 820`.
-- Bars grow upward from a fixed baseline, preventing overlap with titles, subtitles, or artwork text.
-- Easily adjustable for different backgrounds.
+### Features
 
-### ✨ Reflection Effect
-- Added soft mirrored reflections below the baseline.
-- Rendered at ~1/3 height with fading alpha for extra depth.
+* Real-Time Audio Frequency Analysis
+* Audio-Reactive Pink LED Spectrum Visualizer
+* Custom Anime Background Support
+* Music-Synced Frequency Response
+* Built with Python, Pygame, Librosa, NumPy, and FFmpeg
+* Automated Video Rendering Pipeline
+* MP4 Export with Embedded Audio
 
-### 🎵 Improved Audio Response
-- Switched from linear frequency bands to **Mel-scale frequency splitting**.
-- Bass frequencies now drive larger, more reactive bars for more natural movement.
+### Visualizer Layout
 
-### 🌌 Neon Glow Pass
-- Added a secondary glow layer behind each bar.
-- Soft bloom effect creates anime-style night scene lighting.
+* 50 reactive LED bars
+* Bass and mid-frequency analysis
+* Custom positioning beneath title artwork
+* Pink glow effect with layered rendering
 
-### 🎥 Subtle Ken Burns Motion
-- Background slowly pans during playback.
-- Adds motion and atmosphere without distracting from the visualizer.
+---
 
-### ⚙️ Main Customization Option
-- `TEXT_SAFE_ZONE_Y` — Lower it if your background text sits lower in the image; raise it if you need more protected space above the bars.
+## Visualizer v3.1 (Planned)
+
+### Upcoming Features
+
+* TBD
+
+### Development Status
+
+🚧 In Progress
+
+These features are currently being tested and will appear in future releases.
+
 
 ---
 
